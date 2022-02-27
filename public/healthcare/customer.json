@@ -1,4 +1,4 @@
-{
+[{
   "name": "Miranda Walton",
   "gender": "female",
   "age": 63,
@@ -6,7 +6,7 @@
   "medical_history": ["diabetes", "arthritis"],
   "no": ["sweets", "whole grains"],
   "alternative": ["fruits", "vegetables", "fish and seafood"]
-}
+},
 
 {
   "name": "Pearl Schneider",
@@ -16,7 +16,7 @@
   "medical_history": ["high chlosteral"],
   "no": ["eggs", "diary", "nuts and seeds", "meat and poultry"],
   "alternative": ["fruits", "vegetables", "whole grains", "legumes and soy"]
-}
+},
 
 {
   "name": "Lee Poole",
@@ -26,7 +26,7 @@
   "medical_history": ["hypertension"],
   "no": ["sweets", "fish and seafood", "legumes and soy"],
   "alternative": ["fruits", "vegetables", "whole grains"]
-}
+},
 
 {
   "name": "Darrel Black",
@@ -36,7 +36,7 @@
   "medical_history": ["chronic kidney disease"],
   "no": ["sweets", "whole grains", "dairy", "fish and seafood"],
   "alternative": ["fruits", "vegetables", "nuts and seeds"]
-}
+},
 
 {
   "name": "Ted Peterson",
@@ -46,7 +46,7 @@
   "medical_history": ["cardiovascular disease"],
   "no": ["sweets", "meat and poultry", "fish and seafood"],
   "alternative": ["fruits", "vegetables", "nuts and seeds", "legumes and soy"]
-}
+},
 
 {
   "name": "Jean Guzman",
@@ -56,7 +56,7 @@
   "medical_history": [],
   "no": ["soybeans"],
   "alternative": []
-}
+},
 
 {
   "name": "Nancy Blair",
@@ -66,7 +66,7 @@
   "medical_history": [],
   "no": [],
   "alternative": []
-}
+},
 
 {
   "name": "Priscilla Bennett",
@@ -76,7 +76,7 @@
   "medical_history": ["hypertension"],
   "no": ["sweets", "fish and seafood", "legumes and soy"],
   "alternative": ["fruits", "vegetables", "whole grains"]
-}
+},
 
 {
   "name": "Connie Reynolds",
@@ -86,7 +86,7 @@
   "medical_history": [],
   "no": ["shellfish", "wheat"],
   "alternative": ["meat and poultry", "vegetables", "dairy", "nuts and seeds"]
-}
+},
 
 {
   "name": "Joanne Potter",
@@ -97,3 +97,4 @@
   "no": ["sweets", "fish and seafood", "legumes and soy"],
   "alternative": ["fruits", "vegetables", "whole grains"]
 }
+]
