@@ -1,4 +1,5 @@
-[{
+{ "people": 
+  [{
   "name": "Miranda Walton",
   "gender": "female",
   "age": 63,
@@ -97,4 +98,4 @@
   "no": ["sweets", "fish and seafood", "legumes and soy"],
   "alternative": ["fruits", "vegetables", "whole grains"]
 }
-]
+]}
