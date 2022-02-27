@@ -24,6 +24,12 @@ export default function Home() {
               <p>See awesome examples</p>
             </a>
           </Link>
+          <Link href="https://github.com/bentondecusin/helth">
+            <a className={styles.card}>
+              <h2>Source code &rarr;</h2>
+              <p>on github</p>
+            </a>
+          </Link>
         </div>
       </main>
 
