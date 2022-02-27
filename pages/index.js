@@ -21,7 +21,7 @@ export default function Home() {
           <Link href="/example">
             <a className={styles.card}>
               <h2>Demo &rarr;</h2>
-              <p>See an awesome example</p>
+              <p>See awesome examples</p>
             </a>
           </Link>
         </div>
