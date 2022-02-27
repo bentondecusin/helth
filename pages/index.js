@@ -18,12 +18,6 @@ export default function Home() {
 
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Get started and learn more about Helth</p>
-          </a>
-
-
           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
