@@ -1,29 +1,32 @@
 import Head from 'next/head'
+import Form from './form'
+
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+export default function Example() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Helth</title>
+        <title>Helth Example</title>
         <meta name="description" content="Helth by Team Helth" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a >Helth</a>
-        </h1>
-    
-
-        <div className={styles.grid}>
+      <div className={styles.grid}>
           <a
-            href="/example"
+            href="/eg1"
             className={styles.card}
           >
-            <h2>Demo &rarr;</h2>
-            <p>See an awesome example</p>
+            <h2>Example 1</h2>
+            <p>1 student</p>
+          </a>
+          <a
+            href="/eg2"
+            className={styles.card}
+          >
+            <h2>Example 2</h2>
+            <p>Multiple Customers</p>
           </a>
         </div>
       </main>

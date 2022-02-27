@@ -97,6 +97,15 @@
       "allergens": [],
       "nutrients": ["sodium", "vitamin c"],
       "age group": ["teenagers", "adults"]
-    }
+    },
+
+    {
+        "id": 11,
+        "name:": "Protos",
+        "food type": "Chips",
+        "allergens": ["milk"],
+        "nutrients": ["sodium", "vitamin c"],
+        "age group": ["teenagers", "adults"]
+      }
   ]
 }

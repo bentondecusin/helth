@@ -1,18 +1,22 @@
-// Note: This is a sample implementation of getusers
-
 export default function handler(req, res) {
-  if(undefined == req.body) {
-    res.status(400).json({"Error": "Wrong Query"})
-    return 
+  if (undefined == req.body) {
+    res.status(400).json({ Error: "Wrong Query" });
+    return;
   }
 
-  const user_ids = req.body.user_ids
-  if(undefined == user_ids) {
-    res.status(400).json({"Error": "Wrong Query for User ID"})
-    return 
+  const products = req.body.products;
+  const user_ids = req.body.user_ids;
+
+  if (undefined == products) {
+    res.status(400).json({ Error: "Wrong Query for Products" });
+    return;
+  }
+  if (undefined == user_ids) {
+    res.status(400).json({ Error: "Wrong Query for User IDs" });
+    return;
   }
 
-  let users = [
+  const users =[
     {
       "id": 10,
       "name": "Hugh Jazz",
@@ -131,6 +135,26 @@ export default function handler(req, res) {
         "alternative": ["fruits", "vegetables", "whole grains"]
       }
     ]
-  
-  res.status(200).json(user_ids.map(id => users[id % 10]))
+    
+
+  let possible_allergens = {};
+  let possible_health_issues = {};
+
+  const s_users = user_ids.map(id => users[id%10])
+  console.log(s_users)
+  products.forEach((product) => {
+    product.allergens.forEach((p_allergen) => {
+      const prod_name = product.name
+      s_users.forEach((user) => {
+        if (user.allergens.includes(p_allergen)) {
+          if (possible_allergens[user.name] == undefined) {
+            possible_allergens[user.name] = [];
+            possible_allergens[user.name].push(p_allergen);
+          }
+        }
+      });
+    });
+  });
+  console.log(possible_allergens);
+  res.status(200).json(possible_allergens);
 }

@@ -1,11 +1,21 @@
 {
-  "people": [
+  "users": [
+    {
+      "id": 10,
+      "name": "Hugh Jazz",
+      "gender": "male",
+      "age": 20,
+      "allergens": ["wheat", "peanut", "milk"],
+      "medical_history": [],
+      "no": [],
+      "alternative": ["fruits", "vegetables", "whole grains"]
+    },
     {
       "id": 1,
       "name": "Miranda Walton",
       "gender": "female",
       "age": 63,
-      "food_allergens": ["penut", "gluten"],
+      "allergens": ["peanut", "gluten"],
       "medical_history": ["diabetes", "arthritis"],
       "no": ["sweets", "whole grains"],
       "alternative": ["fruits", "vegetables", "fish and seafood"]
@@ -16,7 +26,7 @@
       "name": "Pearl Schneider",
       "gender": "female",
       "age": 48,
-      "food_allergens": ["peanuts"],
+      "allergens": ["peanut"],
       "medical_history": ["high chlosteral"],
       "no": ["eggs", "diary", "nuts and seeds", "meat and poultry"],
       "alternative": ["fruits", "vegetables", "whole grains", "legumes and soy"]
@@ -27,7 +37,7 @@
       "name": "Lee Poole",
       "gender": "male",
       "age": 56,
-      "food_allergens": ["soybeans"],
+      "allergens": ["soybeans"],
       "medical_history": ["hypertension"],
       "no": ["sweets", "fish and seafood", "legumes and soy"],
       "alternative": ["fruits", "vegetables", "whole grains"]
@@ -38,7 +48,7 @@
       "name": "Darrel Black",
       "gender": "male",
       "age": 50,
-      "food_allergens": [],
+      "allergens": [],
       "medical_history": ["chronic kidney disease"],
       "no": ["sweets", "whole grains", "dairy", "fish and seafood"],
       "alternative": ["fruits", "vegetables", "nuts and seeds"]
@@ -49,7 +59,7 @@
       "name": "Ted Peterson",
       "gender": "male",
       "age": 68,
-      "food_allergens": ["diary"],
+      "allergens": ["diary"],
       "medical_history": ["cardiovascular disease"],
       "no": ["sweets", "meat and poultry", "fish and seafood"],
       "alternative": [
@@ -65,7 +75,7 @@
       "name": "Jean Guzman",
       "gender": "female",
       "age": 23,
-      "food_allergens": ["soybeans"],
+      "allergens": ["soybeans"],
       "medical_history": [],
       "no": ["soybeans"],
       "alternative": []
@@ -76,29 +86,17 @@
       "name": "Nancy Blair",
       "gender": "female",
       "age": 19,
-      "food_allergens": [],
+      "allergens": [],
       "medical_history": [],
       "no": [],
       "alternative": []
     },
-
-    {
-      "id": 8,
-      "name": "Priscilla Bennett",
-      "gender": "female",
-      "age": 28,
-      "food_allergens": [],
-      "medical_history": ["hypertension"],
-      "no": ["sweets", "fish and seafood", "legumes and soy"],
-      "alternative": ["fruits", "vegetables", "whole grains"]
-    },
-
     {
       "id": 8,
       "name": "Connie Reynolds",
       "gender": "male",
       "age": 27,
-      "food_allergens": ["shellfish", "wheat"],
+      "allergens": ["shellfish", "wheat"],
       "medical_history": [],
       "no": ["shellfish", "wheat"],
       "alternative": [
@@ -114,7 +112,7 @@
       "name": "Joanne Potter",
       "gender": "female",
       "age": 38,
-      "food_allergens": [],
+      "allergens": [],
       "medical_history": ["hypertension"],
       "no": ["sweets", "fish and seafood", "legumes and soy"],
       "alternative": ["fruits", "vegetables", "whole grains"]
