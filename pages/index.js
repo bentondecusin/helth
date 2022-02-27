@@ -16,6 +16,9 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a>Helth</a>
         </h1>
+        <h2 className={styles.h2}>
+          Function as a Service and Serverless
+        </h2>
 
         <div className={styles.grid}>
           <Link href="/example">
