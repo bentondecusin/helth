@@ -1,62 +1,102 @@
-{"products":
-[{"name":"perrier lemon flavored carbonated mineral water",
-    "food type":"soda drink",
-    "allergens":["sodium benzoate/benzoic acid"],
-    "nutrients":["sodium","carbohydrates"],
-    "age group":["teenagers","adults"]},
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "perrier lemon flavored carbonated mineral water",
+      "food type": "soda drink",
+      "allergens": ["sodium benzoate/benzoic acid"],
+      "nutrients": ["sodium", "carbohydrates"],
+      "age group": ["teenagers", "adults"]
+    },
 
-{"name":"stacy's pita chips",
-    "food type":"snacks",
-    "allergens":["gluten","wheat"],
-    "nutrients":["carbohydrates","protein"],
-    "age group":["teenagers","adults"]},
+    {
+      "id": 2,
+      "name": "stacy's pita chips",
+      "food type": "snacks",
+      "allergens": ["gluten", "wheat"],
+      "nutrients": ["carbohydrates", "protein"],
+      "age group": ["teenagers", "adults"]
+    },
 
-{"name":"lay's classic chips",
-    "food type":"snacks",
-    "allergens":["wheat","gluten","milk","sulphites"],
-    "nutrients":["Vitamin B6","Magnesium"],
-    "age group":["teenagers","adults"]},
+    {
+      "id": 3,
+      "name": "lay's classic chips",
+      "food type": "snacks",
+      "allergens": ["wheat", "gluten", "milk", "sulphites"],
+      "nutrients": ["Vitamin B6", "Magnesium"],
+      "age group": ["teenagers", "adults"]
+    },
 
-{"name":"cornell dairy reduced fat milk",
-    "food type":"dairy product",
-    "allergens":["casein","whey"],
-    "nutrients":["calcium","riboflavin","phosphorous","vitamins A and B12","potassium","magnesium","zinc","iodine"],
-    "age group":["infants","teenagers","adults","elders"]},
+    {
+      "id": 4,
+      "name": "cornell dairy reduced fat milk",
+      "food type": "dairy product",
+      "allergens": ["casein", "whey"],
+      "nutrients": [
+        "calcium",
+        "riboflavin",
+        "phosphorous",
+        "vitamins A and B12",
+        "potassium",
+        "magnesium",
+        "zinc",
+        "iodine"
+      ],
+      "age group": ["infants", "teenagers", "adults", "elders"]
+    },
 
-{"name:":"Entenmann's Glazed Donut Pop'ems",
-    "food type":"snacks",
-    "allergens":["wheat","gluten"],
-    "nutrients":["sodium","cholesterol"],
-    "age group":["teenagers","adults"]},
+    {
+      "id": 5,
+      "name:": "Entenmann's Glazed Donut Pop'ems",
+      "food type": "snacks",
+      "allergens": ["wheat", "gluten"],
+      "nutrients": ["sodium", "cholesterol"],
+      "age group": ["teenagers", "adults"]
+    },
 
-{"name:":"Hostess Snoballs",
-    "food type":"snacks",
-    "allergens":["monosaccharide","gluten"],
-    "nutrients":["potassium","carbohydrate"],
-    "age group":["teenagers","adults"]},
+    {
+      "id": 6,
+      "name:": "Hostess Snoballs",
+      "food type": "snacks",
+      "allergens": ["monosaccharide", "gluten"],
+      "nutrients": ["potassium", "carbohydrate"],
+      "age group": ["teenagers", "adults"]
+    },
 
-{"name:":"Oreos",
-    "food type":"snacks",
-    "allergens":["soy"],
-    "nutrients":["sodium","carbohydrate"],
-    "age group":["teenagers","adults"]},
+    {
+      "id": 7,
+      "name:": "Oreos",
+      "food type": "snacks",
+      "allergens": ["soy"],
+      "nutrients": ["sodium", "carbohydrate"],
+      "age group": ["teenagers", "adults"]
+    },
 
-{"name:":"Doritos",
-    "food type":"snacks",
-    "allergens":["soy"],
-    "nutrients":["cholesterol","carbohydrate"],
-    "age group":["teenagers","adults"]},
+    {
+      "id": 8,
+      "name:": "Doritos",
+      "food type": "snacks",
+      "allergens": ["soy"],
+      "nutrients": ["cholesterol", "carbohydrate"],
+      "age group": ["teenagers", "adults"]
+    },
 
-{"name:":"dove chocolate bar",
-    "food type":"snacks",
-    "allergens":["milk","soy"],
-    "nutrients":["carboydrates"],
-    "age group":["teenagers","adults"]},
+    {
+      "id": 9,
+      "name:": "dove chocolate bar",
+      "food type": "snacks",
+      "allergens": ["milk", "soy"],
+      "nutrients": ["carboydrates"],
+      "age group": ["teenagers", "adults"]
+    },
 
-{"name:":"Kool aid",
-    "food type":"flavored drink",
-    "allergens":[],
-    "nutrients":["sodium","vitamin c"],
-    "age group":["teenagers","adults"]}
-]}
-
+    {
+      "id": 10,
+      "name:": "Kool aid",
+      "food type": "flavored drink",
+      "allergens": [],
+      "nutrients": ["sodium", "vitamin c"],
+      "age group": ["teenagers", "adults"]
+    }
+  ]
+}
